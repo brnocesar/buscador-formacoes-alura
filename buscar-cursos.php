@@ -1,7 +1,7 @@
 <?php
 
 require 'vendor/autoload.php';
-// require 'funcoes.php';
+
 use Alura\BuscadorDeFormacoes\Buscador;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
@@ -13,7 +13,6 @@ $buscador = new Buscador($client, $crawler);
 $formacoes = $buscador->buscar('/formacoes');
 
 foreach ( $formacoes as $formacao ) {
-    // echo $formacao . PHP_EOL;
     exibeMensagem($formacao);
 }
 

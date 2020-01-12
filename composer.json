@@ -39,9 +39,13 @@
         "gitcommit": [
             "git add .",
             "git commit -m \"Commit automático pelo composer\""
-        ]
+        ],
+        "mensagem-teste1": "Alura\\BuscadorDeFormacoes\\TesteDoScript::exibeMensagemScript",
+        "mensagem-teste2": "Teste::metodo"
     },
     "scripts-descriptions": {
-        "check": "Roda as verificações do código: PHPCS e PHAN"
+        "check": "Roda as verificações do código: PHPCS e PHAN",
+        "mensagem-teste1": "Executa método de uma classe que está no vendor namespace",
+        "mensagem-teste2": "Executa método de uma classe que está na raiz do projeto"
     }
 }
