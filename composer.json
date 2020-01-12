@@ -1,6 +1,6 @@
 {
-    "name": "brnocesar/buscador-cursos-alura",
-    "description": "Projeto de aprendizado que busca os cursos no site da Alura",
+    "name": "brnocesar/buscador-formacoes-alura",
+    "description": "Projeto de aprendizado que lista as formações da Alura",
     "type": "library",
     "authors": [
         {
