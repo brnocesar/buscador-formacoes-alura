@@ -35,6 +35,10 @@
         "check": [
             "@phan",
             "@cs"
+        ],
+        "gitcommit": [
+            "git add .",
+            "git commit -m \"Commit automático pelo composer\""
         ]
     },
     "scripts-descriptions": {
