@@ -1,0 +1,15 @@
+{
+    "name": "brnocesar/buscador-cursos-alura",
+    "description": "Projeto de aprendizado que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bruno Cesar",
+            "email": "bruunoocesar@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "symfony/dom-crawler": "^5.0"
+    }
+}
