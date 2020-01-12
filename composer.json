@@ -50,5 +50,9 @@
         "check": "Roda as verificações do código: PHPCS e PHAN",
         "mensagem-teste1": "Executa método de uma classe que está no vendor namespace",
         "mensagem-teste2": "Executa método de uma classe que está na raiz do projeto"
-    }
+    },
+    "license": "GPL-3.0",
+    "bin": [
+        "buscar-cursos.php"
+    ]
 }
