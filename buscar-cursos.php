@@ -1,10 +1,20 @@
 <?php
 
+require 'vendor/autoload.php';
+require 'src/Buscador.php';
+
+use Alura\BuscadorDeFormacoes\Buscador;
 use GuzzleHttp\Client;
+use Symfony\Component\DomCrawler\Crawler;
 
-$client = new Client();
-$resposta = $client->request('GET', 'https://cursos.alura.com.br/formacao-desenvolvedor-php');
+$client = new Client(['base_uri' => 'https://www.alura.com.br/']);
+$crawler = new Crawler();
 
-$html = $resposta->getBody();
+$buscador = new Buscador($client, $crawler);
+$formacoes = $buscador->buscar('/formacoes');
+
+foreach ( $formacoes as $formacao ) {
+    echo $formacao . PHP_EOL;
+}
 
 ?>
