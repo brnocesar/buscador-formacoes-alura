@@ -17,6 +17,9 @@
         "classmap": [
             "./Teste.php"
         ],
+        "files": [
+            "./funcoes.php"
+        ],
         "psr-4": {
             "Alura\\BuscadorDeFormacoes\\": "src/"
         }
