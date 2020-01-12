@@ -33,6 +33,10 @@ class ComposerStaticInit725ca70128304a4f08810fe5762231a1
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
+        'A' => 
+        array (
+            'Alura\\BuscadorDeFormacoes\\' => 26,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -68,6 +72,14 @@ class ComposerStaticInit725ca70128304a4f08810fe5762231a1
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'Alura\\BuscadorDeFormacoes\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+    );
+
+    public static $classMap = array (
+        'Teste' => __DIR__ . '/../..' . '/Teste.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -75,6 +87,7 @@ class ComposerStaticInit725ca70128304a4f08810fe5762231a1
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit725ca70128304a4f08810fe5762231a1::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit725ca70128304a4f08810fe5762231a1::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit725ca70128304a4f08810fe5762231a1::$classMap;
 
         }, null, ClassLoader::class);
     }

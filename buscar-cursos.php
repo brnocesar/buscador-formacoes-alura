@@ -1,7 +1,6 @@
 <?php
 
 require 'vendor/autoload.php';
-require 'src/Buscador.php';
 
 use Alura\BuscadorDeFormacoes\Buscador;
 use GuzzleHttp\Client;
