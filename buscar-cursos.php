@@ -16,4 +16,6 @@ foreach ( $formacoes as $formacao ) {
     echo $formacao . PHP_EOL;
 }
 
+Teste::metodo();
+
 ?>
