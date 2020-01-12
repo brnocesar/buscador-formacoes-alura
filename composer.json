@@ -41,7 +41,10 @@
             "git commit -m \"Commit automático pelo composer\""
         ],
         "mensagem-teste1": "Alura\\BuscadorDeFormacoes\\TesteDoScript::exibeMensagemScript",
-        "mensagem-teste2": "Teste::metodo"
+        "mensagem-teste2": "Teste::metodo",
+        "post-autoload-dump": [
+            "@clear-cache"
+        ]
     },
     "scripts-descriptions": {
         "check": "Roda as verificações do código: PHPCS e PHAN",
