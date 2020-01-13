@@ -41,10 +41,7 @@
             "git commit -m \"Commit automático pelo composer\""
         ],
         "mensagem-teste1": "Alura\\BuscadorDeFormacoes\\TesteDoScript::exibeMensagemScript",
-        "mensagem-teste2": "Teste::metodo",
-        "post-autoload-dump": [
-            "@clear-cache"
-        ]
+        "mensagem-teste2": "Teste::metodo"
     },
     "scripts-descriptions": {
         "check": "Roda as verificações do código: PHPCS e PHAN",
@@ -52,7 +49,5 @@
         "mensagem-teste2": "Executa método de uma classe que está na raiz do projeto"
     },
     "license": "GPL-3.0",
-    "bin": [
-        "buscar-cursos.php"
-    ]
+    "bin": ["/buscar-cursos"]
 }
